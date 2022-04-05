@@ -17,7 +17,7 @@ digit_num = int(input('How many digits do you want? '))
 symbols_num = int(input('How many symbols do you want? '))
 
 if password_length < (lower_case_num + upper_case_num + digit_num + symbols_num):
-    print('ERROR: Sum of Specifications Greater Than Passoword Length')
+    print('ERROR: Sum of Specifications Greater Than Password Length')
 
 for i in range(lower_case_num):
     password.append(random.choice(lower_case_letters))
